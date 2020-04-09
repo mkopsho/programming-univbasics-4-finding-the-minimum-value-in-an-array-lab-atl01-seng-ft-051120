@@ -5,7 +5,7 @@
 
 def find_min_value(array)
   count = 0
-  minimum = Infinity
+  minimum = 9999999
   while count < array.length do
     if minimum > array[count]
       minimum = array[count]
